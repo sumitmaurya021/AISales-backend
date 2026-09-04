@@ -16,7 +16,7 @@ gem "bcrypt", "~> 3.1.7"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Redis & Sidekiq for caching and background jobs
-gem "redis", "~> 5.0"
+gem "redis", "~> 6.0"
 gem "sidekiq", "~> 7.0"
 
 # JWT for authentication tokens
