@@ -17,7 +17,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Redis & Sidekiq for caching and background jobs
 gem "redis", "~> 5.0"
-gem "sidekiq", "~> 7.0"
+gem "sidekiq", "~> 8.1"
 
 # JWT for authentication tokens
 gem "jwt", "~> 2.10"
