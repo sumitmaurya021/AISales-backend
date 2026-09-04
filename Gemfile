@@ -19,6 +19,9 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "redis", "~> 5.0"
 gem "sidekiq", "~> 7.0"
 
+# JWT for authentication tokens
+gem "jwt", "~> 2.10"
+
 # Use the database-backed adapters for Rails.cache, Active Job, and Action Cable
 gem "solid_cache"
 gem "solid_queue"
